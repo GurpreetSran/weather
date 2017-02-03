@@ -6,5 +6,6 @@
    "env": {
     "browser": true,
     "node": true
-  }
+  },
+  "predef" : ["describe", "expect", "it", "inject", "beforeEach", "angular"]
 }
