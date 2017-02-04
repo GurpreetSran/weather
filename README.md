@@ -1,4 +1,4 @@
-## React based web application to get city based weather forecast in UK
+## React based web application to get weather forecast in UK for selected city
 
 
 ### Application key features
@@ -42,15 +42,16 @@
 - Code splitting (Vendor and app)
 - Error handling
 - Checking duplicates in list
-
+- Move API keys to server
 
 ## How to download and run
 
-	1	Git clone from [here](https://github.com/GurpreetSran/weather) and cd to directory
+	1	Git clone from repo below and cd to directory
 	2	npm install  
 	3	npm run dev (Runs dev server with hot module reloading)   	
   4	npm run build (Does production build)
   5 npm run test or npm run test:watch
   6	npm run coverage (Generates coverage report)
 
+### [Code/Git repo](https://github.com/GurpreetSran/weather/)
 ### [Live demo](https://glacial-river-17962.herokuapp.com/)
