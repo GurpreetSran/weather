@@ -41,13 +41,16 @@ plugins.push(
 );
 
 module.exports = {
-  devtool: 'source-map', // Use vars
+  externals: {
+    'google': 'google'
+  },
+  devtool: 'source-map',
   entry,
   plugins,
   output: {
     path: path.join(__dirname, 'dist'),
     publicPath: PRODUCTION ? '/' : '/dist/',
-    filename: 'bundle.js'
+    filename: PRODUCTION ? 'bundle.[hash:12].min.js' : 'bundle.js'
   },
 
   module: {

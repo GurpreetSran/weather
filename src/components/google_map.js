@@ -1,8 +1,9 @@
 import React from 'react';
+import Google from 'google';
 
 class GoogleMap extends React.Component {
   componentDidMount() {
-    new google.maps.Map(this.refs.map, {
+    new Google.maps.Map(this.refs.map, {
       zoom: 12,
       center: {
         lat: this.props.lat,
