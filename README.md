@@ -46,12 +46,11 @@
 
 ## How to download and run
 
-	1	Git clone from repo below and cd to directory
-	2	npm install  
-	3	npm run dev (Runs dev server with hot module reloading)   	
-  4	npm run build (Does production build)
-  5 npm run test or npm run test:watch
-  6	npm run coverage (Generates coverage report)
+	1	Git clone from repo and cd to directory (latest node and npm/yarn must be installed)
+	2	'npm install'  
+	3	'npm run dev' (Runs dev server with hot module reloading)   	
+  4	'npm run build' (Does production build)
+  5 'npm run test' or 'npm run test:watch'
+  6	'npm run coverage' (Generates coverage report)
 
-### [Code/Git repo](https://github.com/GurpreetSran/weather/)
 ### [Live demo](https://glacial-river-17962.herokuapp.com/)
