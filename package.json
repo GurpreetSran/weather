@@ -2,6 +2,9 @@
   "name": "react-weather-app",
   "version": "1.0.0",
   "description": "React based app to get weather forecast for next five days in your favourite city",
+  "engines": {
+    "node": "7.4.0"
+  },
   "main": "index.js",
   "repository": "https://github.com/GurpreetSran/weather.git",
   "scripts": {
@@ -10,7 +13,7 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
     "coverage": "nyc --require babel-core/register mocha ./test/test_helper.js --recursive ./test",
-    "start": "npm run build && node ./dist/server.js"
+    "start": "node ./dist/server.js"
   },
   "author": "Gurpreet Singh",
   "license": "ISC",
