@@ -8,12 +8,12 @@
   "main": "index.js",
   "repository": "https://github.com/GurpreetSran/weather.git",
   "scripts": {
-    "build": "NODE_ENV=production webpack",
+    "build": "rimraf ./dist && NODE_ENV=production webpack",
     "dev": "NODE_ENV=development node dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
     "coverage": "nyc --require babel-core/register mocha ./test/test_helper.js --recursive ./test",
-    "start": "node ./dist/server.js"
+    "start": "node ./server.js"
   },
   "author": "Gurpreet Singh",
   "license": "ISC",
