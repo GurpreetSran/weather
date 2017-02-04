@@ -44,9 +44,6 @@ plugins.push(
 );
 
 module.exports = {
-  externals: {
-    'google': 'google'
-  },
   devtool: 'source-map',
   entry,
   plugins,
