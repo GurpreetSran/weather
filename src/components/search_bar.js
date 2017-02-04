@@ -12,8 +12,11 @@ class SearchBar extends React.Component {
 
   onFormSubmit = (event) => {
     event.preventDefault();
-    this.props.fetchWeather(this.state.term);
-    this.setState({ term: '' });
+
+    if (this.state.term) {
+      this.props.fetchWeather(this.state.term);
+      this.setState({ term: '' });
+    }
   }
 
   render() {
@@ -21,7 +24,7 @@ class SearchBar extends React.Component {
       <form onSubmit={this.onFormSubmit} className="input-group">
         <input
           type="text"
-          placeholder="Get five days forecast"
+          placeholder="Forecast for next five days of you favourite city"
           className="form-control"
           value={this.state.term}
           onChange={this.onInputChange}

@@ -1,11 +1,12 @@
 {
   "name": "react-weather-app",
   "version": "1.0.0",
-  "description": "React based app to get weather information",
+  "description": "React based app to get weather forecast for next five days in your favourite city",
   "main": "index.js",
   "repository": "https://github.com/GurpreetSran/weather.git",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "rimraf dist && NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development node dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
     "coverage": "nyc --require babel-core/register mocha ./test/test_helper.js --recursive ./test"
@@ -19,14 +20,19 @@
     "babel-preset-react": "^6.1.18",
     "chai": "^3.5.0",
     "chai-jquery": "^2.0.0",
+    "css-loader": "^0.26.1",
     "eslint-config-rallycoding": "^3.2.0",
+    "extract-text-webpack-plugin": "2.0.0-rc.0",
+    "html-webpack-plugin": "^2.28.0",
     "jquery": "^2.2.1",
     "jsdom": "^8.1.0",
     "mocha": "^2.4.5",
     "nyc": "^10.1.2",
     "react-addons-test-utils": "^0.14.7",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "rimraf": "^2.5.4",
+    "style-loader": "^0.13.1",
+    "webpack": "2.2.1",
+    "webpack-dev-server": "2.3.0"
   },
   "dependencies": {
     "axios": "^0.15.3",
