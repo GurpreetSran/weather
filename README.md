@@ -1,8 +1,8 @@
-## React based Weather web application
+## React based web application to get city based weather forecast in UK
 
 
 ### Application key features
-- Displays current condition of selected city
+- Displays current weather condition of selected city
 - Has ability to display a list of cities
 - Shows map of selected city
 - Five days forecast of selected location
@@ -10,7 +10,8 @@
 ### Potential improvements
 - AutoComplete for location selection
 - Toggle button to do temperature conversion
-- Charts can add more details
+- More detailed charts
+- Responsive layout
 - Load app with current location or save cities list locally
 - Styling and animation to enhance user experience
 
@@ -38,18 +39,18 @@
 
 
 ### Potential Improvements
-- Code splitting
+- Code splitting (Vendor and app)
 - Error handling
 - Checking duplicates in list
 
 
 ## How to download and run
 
-	1	Git clone from here and cd to directory
+	1	Git clone from [here](https://github.com/GurpreetSran/weather) and cd to directory
 	2	npm install  
 	3	npm run dev (Runs dev server with hot module reloading)   	
-    4	npm run build (Does production build)
-    5 	npm run test or npm run test:watch
-    6	npm run coverage (coverage report)
+  4	npm run build (Does production build)
+  5 npm run test or npm run test:watch
+  6	npm run coverage (Generates coverage report)
 
-### [Live demo]( https://github.com/GurpreetSran/weather)
+### [Live demo](https://glacial-river-17962.herokuapp.com/)
