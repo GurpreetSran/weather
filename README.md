@@ -38,7 +38,7 @@
 - Unit testing setup
 - Code coverage setup
 - Production build setup
--	
+-
 
 ![](https://github.com/GurpreetSran/weather/blob/master/images/coverage-report.png?raw=true")
 
