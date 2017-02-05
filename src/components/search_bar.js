@@ -21,7 +21,7 @@ class SearchBar extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.onFormSubmit} className="input-group">
+      <form onSubmit={this.onFormSubmit} className="search_bar input-group">
         <input
           type="text"
           placeholder="Next five days forecast of your favourite city"

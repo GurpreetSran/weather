@@ -10,11 +10,7 @@ describe('App', () => {
     component = renderComponent(App);
   });
 
-  it('shoud have an input', () => {
-    expect(component.find('input')).to.exist;
-  });
-
-  it('shoud have a button', () => {
-    expect(component.find('button')).to.exist;
+  it('should have correct class', () => {
+    expect(component).to.have.class('app');
   });
 });

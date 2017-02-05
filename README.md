@@ -48,7 +48,7 @@
 
 	1	Git clone from repo and cd to directory (latest node and npm/yarn must be installed)
 	2	'npm install'  
-	3	'npm run dev' (Runs dev server with hot module reloading)   	
+	3	'npm run dev' (Runs dev server with hot module reloading)
   4	'npm run build' (Does production build)
   5 'npm run test' or 'npm run test:watch'
   6	'npm run coverage' (Generates coverage report)
