@@ -7,6 +7,8 @@
 - Shows map of selected city
 - Five days forecast of selected location
 
+![](http://imgur.com/a/YGLcE)
+
 ### Potential improvements
 - AutoComplete for location selection
 - Toggle button to do temperature conversion
@@ -36,7 +38,7 @@
 - Unit testing setup
 - Code coverage setup
 - Production build setup
-
+![](http://imgur.com/a/wVO2U)
 
 ### Potential Improvements
 - Code splitting (Vendor and app)
@@ -49,8 +51,8 @@
 	1	Git clone from repo and cd to directory (latest node and npm/yarn must be installed)
 	2	'npm install'  
 	3	'npm run dev' (Runs dev server with hot module reloading)
-  4	'npm run build' (Does production build)
-  5 'npm run test' or 'npm run test:watch'
-  6	'npm run coverage' (Generates coverage report)
+    4	'npm run build' (Does production build)
+    5    'npm run test' or 'npm run test:watch'
+    6	'npm run coverage' (Generates coverage report)
 
 ### [Live demo](https://glacial-river-17962.herokuapp.com/)
