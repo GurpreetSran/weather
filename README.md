@@ -7,7 +7,7 @@
 - Shows map of selected city
 - Five days forecast of selected location
 
-![](http://imgur.com/a/YGLcE)
+![](/images/interface.jpg?raw=true")
 
 ### Potential improvements
 - AutoComplete for location selection
@@ -38,7 +38,7 @@
 - Unit testing setup
 - Code coverage setup
 - Production build setup
-![](http://imgur.com/a/wVO2U)
+![](/images/coverage-report.jpg?raw=true")
 
 ### Potential Improvements
 - Code splitting (Vendor and app)
