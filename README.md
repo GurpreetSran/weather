@@ -7,7 +7,7 @@
 - Shows map of selected city
 - Five days forecast of selected location
 
-![](/images/interface.jpg?raw=true")
+![](https://github.com/GurpreetSran/weather/blob/master/images/interface.png?raw=true")
 
 ### Potential improvements
 - AutoComplete for location selection
@@ -38,7 +38,7 @@
 - Unit testing setup
 - Code coverage setup
 - Production build setup
-![](/images/coverage-report.jpg?raw=true")
+![](https://github.com/GurpreetSran/weather/blob/master/images/coverage-report.png?raw=true")
 
 ### Potential Improvements
 - Code splitting (Vendor and app)
@@ -52,7 +52,7 @@
 	2	'npm install'  
 	3	'npm run dev' (Runs dev server with hot module reloading)
     4	'npm run build' (Does production build)
-    5    'npm run test' or 'npm run test:watch'
+    5   'npm run test' or 'npm run test:watch'
     6	'npm run coverage' (Generates coverage report)
 
 ### [Live demo](https://glacial-river-17962.herokuapp.com/)
